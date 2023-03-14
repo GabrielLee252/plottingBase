@@ -17,6 +17,7 @@
     height: 400px;
     width: 700px;
     background-color: red;
+    padding: 10px;
 }
 .sub-content {
     height: 200px;
@@ -29,3 +30,15 @@
     background-color: purple;
 }
 
+.side-nav, .main, .sub-content{
+    display: inline-block;
+}
+
+.sub-content, #advertisement{
+    margin: 8px;
+}
+
+.side-nav, .main{
+    margin: 5px;
+    vertical-align: top;
+}
